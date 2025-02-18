@@ -1,6 +1,10 @@
 # Least-Privilege-Access-for-Persistent-Storage-Mechanisms-in-Web-Browsers
 This repository is discuses the changes required in mozilla nightly build proposed in the paper titled "Least Privilege Access for Persistent Storage Mechanisms in Web Browsers" 
 
+You can find our firefox build at https://doi.org/10.5281/zenodo.14822718. This can then be used to run the firefox browser by `./mach run`. 
+
+
+
 ## Set-up
 For our work, we instrumented the firefox codebase in order to integrate fine grained access control for third-party scripts, which otherwise have full control over first-party storage. 
 
@@ -18,7 +22,4 @@ You can run the browser with the command:
 ```bash
 ./mach run
 ```
-
-You can find our firefox build [here](https://iitgnacin-my.sharepoint.com/:f:/g/personal/21310015_iitgn_ac_in/EtiMZw2QxvBGh4fN23l3hqkB5sP86zJaeYS9dXs4D7ahcg?e=Pi7zRg). This can then be used to run the firefox browser by `./mach run`. 
-
 
